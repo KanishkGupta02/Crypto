@@ -1,0 +1,191 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+html, body {
+    height: 100%;
+    font-size: 36%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+
+
+}
+
+body nav {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 6rem;
+
+
+}
+
+nav img {
+
+    height: 5.5rem;
+    width: 5.5rem;
+    margin-top: 5.6rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-top: 4rem;
+
+
+}
+
+nav ul li {
+    padding: 1rem 7rem;
+    display: inline-block;
+    font-size: 3.1rem;
+    margin-top: 1.4rem;
+    ;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+    padding: 0.3rem 0.8rem;
+    border-radius: 1.5rem;
+    background-image: linear-gradient(to right, rgb(202, 133, 3), rgb(248, 165, 10));
+    color: rgb(0, 0, 0);
+
+}
+
+nav .btn {
+    color: black;
+    background-color: rgb(241, 163, 19);
+    border-radius: 2rem;
+    padding: 0.7rem 0.9rem;
+    text-decoration: none;
+    font-weight: bold;
+    width: 3.3rem;
+    height: 1.1rem;
+    border: 2px solid white;
+    margin-top: 0.9rem;
+    margin-left: 94rem;
+    line-height: 0rem;
+
+}
+
+
+.content h1 {
+    font-size: 16rem;
+    color: #fff;
+    margin-top: 20rem;
+    margin-left: 8rem;
+
+}
+
+.content p {
+    color: white;
+    font-size: 7rem;
+    line-height: 20rem;
+    width: 200%;
+    margin-left: 8rem;
+
+
+}
+
+.content span {
+    color: #ff961b;
+}
+
+
+.content {
+    margin: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+/* .content .btn {
+    color: black;
+    background-color: rgb(241, 163, 19);
+    border-radius: 3rem;
+    margin: 2rem 0rem 0rem 9rem;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 2rem;
+    width: 5.1rem;
+
+} */
+
+.content a {
+    padding: 0.5rem 0rem;
+    margin: 0.5rem 0rem;
+
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    margin: 10rem 14rem;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.parent img {
+
+    height: 10rem;
+    width: 10rem;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.coin-info {
+    font-size: 2.4rem;
+    padding: 0rem 3rem;
+    line-height: 1.4rem;
+}
+
+.coin-info h3 {
+    font-size: 2.1rem;
+    color: rgb(48, 226, 220);
+    line-height: 3rem;
+    width: 200%;
+}
+
+.coin-info p {
+
+    color: #ff961b;
+    line-height: 4rem;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+@media screen and (max-width:998px) {
+    html, body {
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html, body {
+        font-size: 25%;
+    }
+}
